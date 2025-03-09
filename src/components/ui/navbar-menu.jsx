@@ -38,7 +38,7 @@ export const MenuItem = ({
               <motion.div
                 transition={transition}
                 layoutId="active"
-                className="bg-white/10 backdrop-blur-sm rounded-2xl overflow-hidden border border-white/[0.2] shadow-xl"
+                className="bg-gray-700 rounded-2xl overflow-hidden border border-white/[0.2] shadow-xl"
               >
                 <motion.div layout className="w-max h-full p-4">
                   {children}
@@ -59,7 +59,7 @@ export const Menu = ({
   return (
     <nav
       onMouseLeave={() => setActive(null)}
-      className="relative rounded-full  bg-white/10 backdrop-blur-sm shadow-input flex justify-center space-x-4 px-8 py-6"
+      className="relative rounded-full bg-gray-800 backdrop-blur-sm shadow-input flex justify-center space-x-4 px-8 py-6"
     >
       {children}
     </nav>
@@ -73,7 +73,7 @@ export const ProductItem = ({
   src
 }) => {
   return (
-    <Link href={href} className="flex space-x-2">
+    <Link href={href} className="flex space-x-2 bg-gray-700 p-4 rounded-md">
       <Image
         src={src}
         width={140}
