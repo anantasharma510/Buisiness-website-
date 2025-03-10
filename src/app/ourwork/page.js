@@ -115,7 +115,7 @@ export default function OurWork() {
             Ready to Start Your Project?
           </h2>
           <p className='text-lg text-gray-400 mb-8'>
-            Let's build something amazing together. Contact us today!
+            Lets build something amazing together. Contact us today!
           </p>
           <a
             href='/contact'
