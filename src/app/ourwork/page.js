@@ -61,7 +61,7 @@ export default function OurWork() {
           Our Work
         </h1>
         <p className='text-lg text-center text-gray-400 mb-12'>
-          Explore some of the projects we've proudly worked on.
+          Explore some of the projects we have proudly worked on.
         </p>
 
         {/* Carousel Section */}
@@ -100,7 +100,7 @@ export default function OurWork() {
                       Testimonial
                     </h4>
                     <p className='text-gray-400 italic'>
-                      "{project.testimonial}"
+                      {project.testimonial}
                     </p>
                   </div>
                 )}
